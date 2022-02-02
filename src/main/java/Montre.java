@@ -52,12 +52,19 @@ public class Montre {
         Montre Copy = new Montre(MaMontre);
         Personne jules = new Personne("jules");
         jules.PorterMontrer(MaMontre);
+        System.out.println("***********Verifie si l'utilisateur a une montre ************ ");
         jules.IsPersonHaveWatch();
+        System.out.println("***********demande l'heure à quelqu'un  **************** ");
         System.out.println("il est : "+jules.AskTime());
         // on lui retire sa montrer
-        System.out.println("********************************************************** ");
+        System.out.println("***************ajout d'une minute à la montre **************** ");
         MaMontre.AddMinute(jules.getMontre());
+        System.out.println("***********demande l'heure à quelqu'un  **************** ");
         System.out.println("il est : "+jules.AskTime());
+        jules.RemoveWatch();
+        System.out.println("***********Verifie si l'utilisateur a encore une montre ************ ");
+        jules.IsPersonHaveWatch();
+
     }
 
 
