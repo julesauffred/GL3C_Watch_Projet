@@ -18,6 +18,12 @@ class PersonneTest {
 
     @Test
     void askTime() {
+        Personne ulrich=new Personne("ulrich");
+        Montre MontreUlrich=new Montre(15,8);
+       ulrich.AskTime();
+       assertEquals("15H10",ulrich.AskTime());
+
+
     }
 
     @Test
