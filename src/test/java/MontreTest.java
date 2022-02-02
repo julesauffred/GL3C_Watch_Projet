@@ -10,7 +10,12 @@ class MontreTest {
     }
 
     @Test
-    void getTime() {
+    void montreClonner(){
+        Montre m = new Montre(23,23);
+        Montre clone = new Montre(m);
+        assertEquals("23H23",m.getTime());
+
+
     }
 
     @Test
