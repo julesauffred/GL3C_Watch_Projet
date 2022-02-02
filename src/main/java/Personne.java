@@ -11,6 +11,9 @@ public class Personne {
         IsHaveWach=false;
         montre=null;
     }
+    public Boolean getIsHaveWatch(){
+        return this.IsHaveWach;
+    }
     public Montre getMontre(){
         return  this.montre;
     }

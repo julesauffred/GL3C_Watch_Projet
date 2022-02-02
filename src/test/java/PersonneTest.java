@@ -22,5 +22,10 @@ class PersonneTest {
 
     @Test
     void isPersonHaveWatch() {
+        Personne abel=new Personne("abel");
+        Montre MontreAbel=new Montre(10,30);
+        abel.PorterMontrer(MontreAbel);
+        assertTrue(abel.getIsHaveWatch());
+
     }
 }
