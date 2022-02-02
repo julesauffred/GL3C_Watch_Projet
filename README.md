@@ -5,7 +5,7 @@ Thème: Montre<br>
 membres du groupe<br><br>
 -MEKONTSO jules auffred<br>
 -TIEMAGNI MOTSOBO ABEL<br> 
--GUENOU BOUGUE MWRIAM SIDOINE<br>
+-GUENOU BOUGUE MyRIAM SIDOINE<br>
 -FOMEN DOLVIANE EPIPHANIE<br>
 -
 -
