@@ -1,11 +1,11 @@
 # GL3C_Watch_Projet_groupe2
 
-Thème: Montre
+Thème: Montre<br>
 
-membres du groupe
+membres du groupe<br><br>
 -MEKONTSO jules auffred<br>
--TIEMAGNI MOTSOBO ABEL 
--GUENOU BOUGUE MWRIAM SIDOINE
--FOMEN DOLVIANE EPIPHANIE
+-TIEMAGNI MOTSOBO ABEL<br> 
+-GUENOU BOUGUE MWRIAM SIDOINE<br>
+-FOMEN DOLVIANE EPIPHANIE<br>
 -
 -
