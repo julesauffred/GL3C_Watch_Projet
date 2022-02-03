@@ -4,13 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PersonneTest {
 
-    @Test
-    void getMontre() {
-    }
 
-    @Test
-    void porterMontrer() {
-    }
 
     @Test
     void removeWatch() {

@@ -18,9 +18,7 @@ class MontreTest {
 
     }
 
-    @Test
-    void setBusy() {
-    }
+
 
     @Test
     void ismontrecreer() {
@@ -30,7 +28,4 @@ class MontreTest {
 
     }
 
-    @Test
-    void getIsBussy() {
-    }
 }

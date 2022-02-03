@@ -13,14 +13,18 @@ public class Montre {
     //methodes de la classe
 
     public Montre(int heur,int minute){
-
-        if (heur>24 || minute>60)
-        {
-            System.out.println("impossible de créer une heure superieur à 24 ");
+        if(heur>=0 || minute>=0){
+            if (heur>24 || minute>60)
+            {
+                System.out.println("impossible de créer une heure superieur à 24 ");
+            }else{
+                this.Heur=heur;
+                this.minute=minute;
+            }
         }else{
-            this.Heur=heur;
-            this.minute=minute;
+            System.out.println("impossible de créer une heure superieur negative ");
         }
+
     }
 
     public Montre(Montre montre){
